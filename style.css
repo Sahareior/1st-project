@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right: px;
+    background-color: whitesmoke;
+}
+.options{
+    display: flex;
+    gap: 8px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.text1{
+  color: aquamarine;
+
+}
+.text2{
+    color: rgb(155, 20, 65);
+}
+.n-text{
+   position: relative;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li:hover{
+    color: white;
+    background-color: aqua;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: whitesmoke;
+    column-gap: 40%;
+}
+.ctext1{
+    color: peru;
+}
+.ctext2{
+    color:peru;
+}
+.ctext3{
+    color: red;
+}
+.l-side:nth-child(1){
+    color: blueviolet;
+}
+.l-side{
+    margin-left: 30px;
+    padding: 20px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.r-side{
+    padding: 20px;
+}
+.details h1{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+.details p{
+text-align: center;
+display: block;
+color: blue;
+padding: 20%;
+}
+.achivements{
+    
+ 
+}
